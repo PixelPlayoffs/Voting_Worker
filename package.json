@@ -2,8 +2,9 @@
   "name": "voting_worker",
   "version": "0.1.0",
   "description": "Azure SB Watcher",
-  "main": "index.js",
+  "main": "svr/index.js",
   "scripts": {
+    "start": "node svr/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
