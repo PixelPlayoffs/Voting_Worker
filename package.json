@@ -1,0 +1,23 @@
+{
+  "name": "voting_worker",
+  "version": "0.1.0",
+  "description": "Azure SB Watcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixelPlayoffs/Voting_Worker.git"
+  },
+  "author": "Ian Philpot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PixelPlayoffs/Voting_Worker/issues"
+  },
+  "homepage": "https://github.com/PixelPlayoffs/Voting_Worker#readme",
+  "dependencies": {
+    "azure": "^2.0.0-preview",
+    "azure-sb-queue-watcher": "^1.0.2"
+  }
+}
